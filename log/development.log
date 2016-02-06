@@ -35815,3 +35815,10 @@ Processing by InmatesController#new as HTML
   Rendered inmates/_form.html.erb (217.6ms)
   Rendered inmates/new.html.erb within layouts/application (257.9ms)
 Completed 200 OK in 1218ms (Views: 1190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:38:10 -0800
+Processing by InmatesController#index as HTML
+  [1m[35mInmate Load (1.6ms)[0m  SELECT "inmates".* FROM "inmates"
+  Rendered inmates/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 253ms (Views: 250.0ms | ActiveRecord: 1.6ms)

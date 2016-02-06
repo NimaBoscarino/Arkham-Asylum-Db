@@ -16,7 +16,7 @@ joker_bio = "The Joker is a serial killer and a super-villain, a dangerous madma
 
 Inmate.create(first_name: 'Victor', last_name: 'Fries', nick_name: 'Mr. Freeze', mugshot: 'http://i.imgur.com/MiLqE9J.jpg', bio: freeze_bio, height: 1.6, weight: 70, danger_level: 'yellow')
 Inmate.create(first_name: 'Edward', last_name: 'Nigma', nick_name: 'Riddler', mugshot: 'http://i.imgur.com/9ztYqXq.jpg', bio: riddler_bio, height: 1.9, weight: 65, danger_level: 'orange')
-Inmate.create(first_name: 'Oswald', last_name: 'Cobblepot', nick_name: 'Penguin', mugshot: 'http://i.imgur.com/0CVug21.jpg', bio: penguin_bio, height: 1.3, weigth: 64, danger_level: 'yellow')
+Inmate.create(first_name: 'Oswald', last_name: 'Cobblepot', nick_name: 'Penguin', mugshot: 'http://i.imgur.com/0CVug21.jpg', bio: penguin_bio, height: 1.3, weight: 64, danger_level: 'yellow')
 Inmate.create(first_name: 'N/A', last_name: 'Dorrance', nick_name: 'Bane', mugshot: 'http://i.imgur.com/Byv9IM1.jpg', bio: bane_bio, height: 2.3, weight: 93, danger_level: 'orange')
 Inmate.create(first_name: 'Jonathan', last_name: 'Crane', nick_name: 'Scarecrow', mugshot: 'http://i.imgur.com/HLsk5VW.jpg', bio: scarecrow_bio, height: 1.7, weight: 45, danger_level: 'orange')
 Inmate.create(first_name: 'N/A', last_name: 'N/A', nick_name: 'Joker', mugshot: 'http://i.imgur.com/t8r9IDC.jpg', bio: joker_bio, height: 1.7, weight: 42, danger_level: 'red')
