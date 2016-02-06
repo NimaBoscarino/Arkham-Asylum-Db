@@ -35609,3 +35609,209 @@ Processing by InmatesController#index as HTML
   [1m[36mInmate Load (0.4ms)[0m  [1mSELECT "inmates".* FROM "inmates"[0m
   Rendered inmates/index.html.erb within layouts/application (3.0ms)
 Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:20:29 -0800
+Processing by InmatesController#index as HTML
+  [1m[35mInmate Load (1.1ms)[0m  SELECT "inmates".* FROM "inmates"
+  Rendered inmates/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 576ms (Views: 563.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/inmates.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/application.self-81946ae3fe91dc63796a326e9581284553590f5af6bf7195505006fbace464b0.css?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/stylesheets/styles.css" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/styles.css"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  puma (2.16.0) lib/puma/commonlogger.rb:31:in `call'
+  puma (2.16.0) lib/puma/configuration.rb:81:in `call'
+  puma (2.16.0) lib/puma/server.rb:557:in `handle_request'
+  puma (2.16.0) lib/puma/server.rb:404:in `process_client'
+  puma (2.16.0) lib/puma/server.rb:270:in `block in run'
+  puma (2.16.0) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.9ms)
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:30 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (134.9ms)
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/inmates.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.6ms)
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (80.2ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.6ms)
+  Rendered /home/nima/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (163.6ms)
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/background-332b0de517300345db6b14ed86bab8fb544444733cbb55ff2ef86a461e5ee0c3.jpg" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/assets/logo-0b11282000d649232b7cbbecdaa67b0ebb03aed6622c4c7d3238394a2ded02f9.png" for 127.0.0.1 at 2016-02-05 23:20:31 -0800
+
+
+Started GET "/inmates/new" for 127.0.0.1 at 2016-02-05 23:22:48 -0800
+Processing by InmatesController#new as HTML
+  Rendered inmates/_form.html.erb (22.0ms)
+  Rendered inmates/new.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 181ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:22:56 -0800
+Processing by InmatesController#index as HTML
+  [1m[36mInmate Load (1.0ms)[0m  [1mSELECT "inmates".* FROM "inmates"[0m
+  Rendered inmates/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 106ms (Views: 104.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/inmates/2" for 127.0.0.1 at 2016-02-05 23:24:02 -0800
+Processing by InmatesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInmate Load (0.4ms)[0m  SELECT  "inmates".* FROM "inmates" WHERE "inmates"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered inmates/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:24:03 -0800
+Processing by InmatesController#index as HTML
+  [1m[36mInmate Load (0.4ms)[0m  [1mSELECT "inmates".* FROM "inmates"[0m
+  Rendered inmates/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/inmates/1" for 127.0.0.1 at 2016-02-05 23:24:05 -0800
+Processing by InmatesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInmate Load (0.3ms)[0m  SELECT  "inmates".* FROM "inmates" WHERE "inmates"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered inmates/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 93.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:28:34 -0800
+Processing by InmatesController#index as HTML
+  [1m[35mInmate Load (1.9ms)[0m  SELECT "inmates".* FROM "inmates"
+  Rendered inmates/index.html.erb within layouts/application (119.4ms)
+Completed 200 OK in 650ms (Views: 615.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/inmates/2" for 127.0.0.1 at 2016-02-05 23:28:37 -0800
+Processing by InmatesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInmate Load (0.9ms)[0m  [1mSELECT  "inmates".* FROM "inmates" WHERE "inmates"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered inmates/show.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 885ms (Views: 869.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:29:54 -0800
+Processing by InmatesController#index as HTML
+  [1m[36mInmate Load (1.4ms)[0m  [1mSELECT "inmates".* FROM "inmates"[0m
+  Rendered inmates/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 221ms (Views: 217.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/inmates/2" for 127.0.0.1 at 2016-02-05 23:29:56 -0800
+Processing by InmatesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInmate Load (0.3ms)[0m  SELECT  "inmates".* FROM "inmates" WHERE "inmates"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered inmates/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 153ms (Views: 150.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/inmates" for 127.0.0.1 at 2016-02-05 23:29:58 -0800
+Processing by InmatesController#index as HTML
+  [1m[36mInmate Load (0.4ms)[0m  [1mSELECT "inmates".* FROM "inmates"[0m
+  Rendered inmates/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 177ms (Views: 174.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/inmates/new" for 127.0.0.1 at 2016-02-05 23:32:45 -0800
+Processing by InmatesController#new as HTML
+  Rendered inmates/_form.html.erb (217.6ms)
+  Rendered inmates/new.html.erb within layouts/application (257.9ms)
+Completed 200 OK in 1218ms (Views: 1190.0ms | ActiveRecord: 0.0ms)
