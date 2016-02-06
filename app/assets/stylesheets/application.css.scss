@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+
+  background-image: image-url('brick-wall-dark.png');
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+tr {
+
+  margin: 15px;
+
+}
+
+a {
+
+  color: purple;
+
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 10px;
+  text-align: center;
+
+}
+
+li {
+  border: solid black 2px;
+  margin: 10px;
+  background-color: none;
+
+}
+
+#add_inmate {
+
+  float: right;
+  font-size: 1.5em;
+
+}
+
+
+.container {
+  margin-top: 6em;
+  background-color: grey;
+  padding: 5em;
+
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  background-color: white;
+  background-image: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  background-color: white;
+  background-image: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+  background-color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.mugshot {
+
+  height: 9em;
+  width: auto;
+
+}
+
+.big_mugshot {
+
+  float: right;
+  height: 20em;
+  width: auto;
+  margin: 10px;
+}
+
+#title {
+
+  text-align: center;
+  color: black;
+
+}

@@ -1,0 +1,41 @@
+<img class="big_mugshot" src= <%= @inmate.mugshot %>
+
+<p>
+  <strong>First Name:</strong>
+  <%= @inmate.first_name %>
+</p>
+<p>
+  <strong>Last Name:</strong>
+  <%= @inmate.last_name %>
+</p>
+<p>
+  <strong>Nick Name:</strong>
+  <%= @inmate.nick_name %>
+</p>
+<p>
+  <strong>Height:</strong>
+  <%= @inmate.height %>
+</p>
+<p>
+  <strong>Weight:</strong>
+  <%= @inmate.weight %>
+</p>
+<p>
+  <strong>Danger Level:</strong>
+  <%= @inmate.danger_level %>
+</p>
+<p>
+  <strong>Power:</strong>
+  <%= @inmate.power %>
+</p>
+<p>
+  <strong>Bio:</strong>
+  <%= @inmate.bio %>
+</p>
+
+
+<%= link_to 'Destroy', inmate_path(@inmate),
+        method: :delete,
+        data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Edit', edit_inmate_path(@inmate) %>
+<%= link_to 'Back', inmates_path %>
