@@ -30,11 +30,6 @@ tr {
 
 }
 
-a {
-
-  color: purple;
-
-}
 
 ul {
 
@@ -45,7 +40,7 @@ ul {
 }
 
 li {
-  border: solid black 5px;
+  border: solid black 4px;
   margin: 10px;
   background-color: grey;
   border-radius: 5px;
@@ -99,6 +94,7 @@ li {
 
 .mugshot {
 
+  padding: 5px;
   height: 9em;
   width: auto;
 
@@ -110,6 +106,8 @@ li {
   height: 20em;
   width: auto;
   margin: 10px;
+  border: solid black 4px;
+  border-radius: 8px;
 }
 
 #title {
@@ -130,5 +128,22 @@ li {
 #arkham {
 
   text-align: center;
+
+}
+
+#option_box{
+
+  font-size: 2em;
+
+}
+.add_inmate {
+
+  float: right;
+
+}
+
+li a {
+
+  color: purple;
 
 }

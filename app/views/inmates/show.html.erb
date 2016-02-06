@@ -34,8 +34,10 @@
 </p>
 
 
-<%= link_to 'Destroy', inmate_path(@inmate),
-        method: :delete,
-        data: { confirm: 'Are you sure?' } %>
-<%= link_to 'Edit', edit_inmate_path(@inmate) %>
-<%= link_to 'Back', inmates_path %>
+<div id="option_box">
+  <%= link_to 'Release', inmate_path(@inmate),
+            method: :delete,
+            data: { confirm: 'Are you sure?' } %>
+  <%= link_to 'Edit', edit_inmate_path(@inmate) %>
+  <%= link_to 'Back', inmates_path %>
+</div>

@@ -1,13 +1,13 @@
 <h1 id="title">INDEX OF INMATES</h1>
 
-<button id="add_inmate"><%= link_to 'Add Inmate', new_inmate_path %></button>
+<a href="/inmates/new" class="btn btn-primary add_inmate" role="button">ADD INMATE</a>
 
 <div class="inmate_list">
   <ul class="list-inline">
     <% @inmates.each do |inmate| %>
       <li id="inmate_entry" style="background-color: <%= inmate.danger_level %> ;">
-          <img class="mugshot"src= <%= inmate.mugshot %><br><br>
-          <%= inmate.nick_name %><br>
+          <img class="mugshot" src= <%= inmate.mugshot %><br><br>
+          <strong><%= inmate.nick_name %></strong><br>
           <%= link_to 'View Info', inmate_path(inmate) %><br>
           <%= link_to 'Edit', edit_inmate_path(inmate) %><br>
           <%= link_to 'Release', inmate_path(inmate),

@@ -46,6 +46,6 @@ class InmatesController < ApplicationController
 
   private
     def inmate_params
-      params.require(:inmate).permit(:first_name, :last_name, :nick_name, :height, :weight, :mugshot_front, :mugshot_side, :danger_level, :power, :bio)
+      params.require(:inmate).permit(:first_name, :last_name, :nick_name, :height, :weight, :mugshot, :danger_level, :power, :bio)
     end
 end
