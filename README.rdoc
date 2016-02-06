@@ -3,3 +3,10 @@ README:
 - I replaced the "color" attribute with "Danger Level". Technically you can put
 in whatever color you want, but it's nice if you use yellow, orange, and red to indicate
 danger.
+
+
+Features:
+
+- Pictures are loaded in from URLs
+- color coding for danger levels
+- Pretty (or prettier) styling
