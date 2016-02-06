@@ -10,3 +10,5 @@ Features:
 - Pictures are loaded in from URLs
 - color coding for danger levels
 - Pretty (or prettier) styling
+
+NOTE: ALL "MUGSHOT" DRAWINGS ARE FROM DEVIANTART, BIOS ARE FROM THE BATMAN WIKI, AND THE BACKGROUND IS FROM THE VIDEO GAME "ARKHAM ASYLUM"
