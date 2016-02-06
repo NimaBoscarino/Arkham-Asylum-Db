@@ -19,8 +19,8 @@
 
 body {
 
-  background-image: image-url('brick-wall-dark.png');
-  background-color: rgba(0, 0, 0, 0.7);
+  background-image: image-url('background.jpg');
+  color: black;
 
 }
 
@@ -45,9 +45,10 @@ ul {
 }
 
 li {
-  border: solid black 2px;
+  border: solid black 5px;
   margin: 10px;
-  background-color: none;
+  background-color: grey;
+  border-radius: 5px;
 
 }
 
@@ -61,8 +62,10 @@ li {
 
 .container {
   margin-top: 6em;
-  background-color: grey;
+  background-color: rgba(50, 85, 87, 0.75);
   padding: 5em;
+  border: solid 5px black;
+  border-radius: 10px;
 
 }
 
@@ -113,5 +116,19 @@ li {
 
   text-align: center;
   color: black;
+
+}
+
+.logo {
+
+  height: 10em;
+  float: left;
+  margin: 15px;
+
+}
+
+#arkham {
+
+  text-align: center;
 
 }

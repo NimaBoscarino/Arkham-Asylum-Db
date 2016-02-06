@@ -8,20 +8,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-centre">
-          <li><a href="/">ARKHAM ASYLUM DATABASE</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
 
 <div class="container">
+  <div>
+    <%= image_tag "logo.png", class: "logo" %>
+    <h1 id="arkham">ARKHAM ASYLUM DATABASE</h1>
+  </div>
 
-<%= yield %>
+  <%= yield %>
 
 </div>
 
